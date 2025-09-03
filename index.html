@@ -1,0 +1,366 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Rodrigo Adrián - Desarrollador Web</title>
+
+  <link rel="shortcut icon" href="./assets/images/logo.ico" type="image/x-icon" />
+  <link rel="stylesheet" href="./assets/css/style.css" />
+
+  <link rel="preconnect" href="https://fonts.googleapis.com"/>
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin/>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet"/>
+</head>
+<body>
+
+<main>
+  <!-- SIDEBAR -->
+  <aside class="sidebar" data-sidebar>
+    <div class="sidebar-info">
+      <figure class="avatar-box">
+        <img src="./assets/images/dev.webp" alt="Avatar de Rodrigo Adrián" width="80"/>
+      </figure>
+
+      <div class="info-content">
+        <h1 class="name" title="Rodrigo Adrián">Rodrigo Adrián</h1>
+        <p class="title">Desarrollador Web — Full Stack</p>
+      </div>
+
+      <button class="info_more-btn" data-sidebar-btn>
+        <span>Mostrar contacto</span>
+        <ion-icon name="chevron-down"></ion-icon>
+      </button>
+    </div>
+
+    <div class="sidebar-info_more">
+      <div class="separator"></div>
+
+      <ul class="contacts-list">
+        <li class="contact-item">
+          <div class="icon-box"><ion-icon name="mail-outline"></ion-icon></div>
+          <div class="contact-info">
+            <p class="contact-title">Email</p>
+            <a href="mailto:deftoneslovers22@gmail.com" class="contact-link">deftoneslovers22@gmail.com</a>
+          </div>
+        </li>
+
+        <li class="contact-item">
+          <div class="icon-box"><ion-icon name="location-outline"></ion-icon></div>
+          <div class="contact-info">
+            <p class="contact-title">Ubicación</p>
+            <address>Soyapango. San Salvador</address>
+          </div>
+        </li>
+      </ul>
+
+      <div class="separator"></div>
+
+      <ul class="social-list">
+        <li class="social-item">
+          <a href="https://github.com/AdrianRosa21" class="social-link" aria-label="GitHub">
+            <ion-icon name="logo-github"></ion-icon>
+          </a>
+        </li>
+        <li class="social-item">
+          <a href="https://www.instagram.com/lowkey.adrn" class="social-link" aria-label="Instagram">
+            <ion-icon name="logo-instagram"></ion-icon>
+          </a>
+        </li>
+      </ul>
+    </div>
+  </aside>
+
+  <!-- CONTENIDO PRINCIPAL -->
+  <div class="main-content">
+
+    <!-- NAVBAR -->
+    <nav class="navbar">
+      <ul class="navbar-list">
+        <li class="navbar-item"><button class="navbar-link active" data-nav-link>Acerca</button></li>
+        <li class="navbar-item"><button class="navbar-link" data-nav-link>Resumen</button></li>
+        <li class="navbar-item"><button class="navbar-link" data-nav-link>Portafolio</button></li>
+        <li class="navbar-item"><button class="navbar-link" data-nav-link>Contacto</button></li>
+      </ul>
+    </nav>
+
+    <!-- ABOUT -->
+    <article class="about active" data-page="acerca">
+      <header><h2 class="h2 article-title">Acerca de mí</h2></header>
+
+      <section class="about-text">
+        <p>
+          Soy <strong>Rodrigo Adrián</strong>, desarrollador web full stack. Me enfoco en crear experiencias
+          rápidas, accesibles y fáciles de usar, uniendo un diseño claro con código limpio. Trabajo con
+          tecnologías modernas y prototipado en Figma para validar ideas y entregar productos que inspiren confianza.
+        </p>
+      </section>
+
+      <!-- SERVICIOS (manteniendo exactamente estos 4 bloques) -->
+      <section class="service">
+        <h3 class="h3 service-title">Servicios</h3>
+        <ul class="service-list">
+
+          <li class="service-item">
+            <div class="service-icon-box">
+              <img src="./assets/images/icon-design.svg" alt="design icon" width="40">
+            </div>
+            <div class="service-content-box">
+              <h4 class="h4 service-item-title">Diseño Web</h4>
+              <p class="service-item-text">
+                Ofrezco diseños web modernos, creativos y adaptados a las necesidades de cada cliente. Trabajo con Figma. Estructuras claras, usabilidad intuitiva y una estética visual que refleja la identidad de tu marca, asegurando que cada sitio web sea único y profesional.
+              </p>
+            </div>
+          </li>
+
+          <li class="service-item">
+            <div class="service-icon-box">
+              <img src="./assets/images/icon-dev.svg" alt="Web development icon" width="40">
+            </div>
+            <div class="service-content-box">
+              <h4 class="h4 service-item-title">Desarrollo Web</h4>
+              <p class="service-item-text">
+                Creo sitios web funcionales, rápidos y seguros utilizando las mejores tecnologías actuales. Mi objetivo es brindar soluciones escalables y optimizadas para garantizar un rendimiento excelente, desde páginas corporativas hasta plataformas completas con funcionalidades avanzadas.
+              </p>
+            </div>
+          </li>
+
+          <li class="service-item">
+            <div class="service-icon-box">
+              <img src="./assets/images/icon-app.svg" alt="mobile app icon" width="40">
+            </div>
+            <div class="service-content-box">
+              <h4 class="h4 service-item-title">Diseño Responsive</h4>
+              <p class="service-item-text">
+                Todos mis proyectos están diseñados para adaptarse a cualquier dispositivo, garantizando una experiencia de usuario fluida tanto en computadoras como en tablets y smartphones. Porque hoy en día, un sitio web debe lucir y funcionar perfectamente sin importar dónde se vea.
+              </p>
+            </div>
+          </li>
+
+          <li class="service-item">
+            <div class="service-icon-box">
+              <img src="./assets/images/icon-photo.svg" alt="camera icon" width="40">
+            </div>
+            <div class="service-content-box">
+              <h4 class="h4 service-item-title">Calidad al mejor precio</h4>
+              <p class="service-item-text">
+                Ofrezco servicios de alta calidad adaptados a tu presupuesto. Mi objetivo es brindar soluciones profesionales y eficientes, asegurando siempre la mejor relación entre precio y valor, para que obtengas resultados de primer nivel sin pagar de más.
+              </p>
+            </div>
+          </li>
+
+        </ul>
+      </section>
+    </article>
+
+    <!-- RESUME -->
+    <article class="resume" data-page="resumen">
+      <header><h2 class="h2 article-title">Resumen</h2></header>
+
+      <section class="timeline">
+        <div class="title-wrapper">
+          <div class="icon-box"><ion-icon name="book-outline"></ion-icon></div>
+          <h3 class="h3">Educación</h3>
+        </div>
+        <ol class="timeline-list">
+          <li class="timeline-item">
+            <h4 class="h4 timeline-item-title">Formación Full Stack</h4>
+            <span>2024 — Presente</span>
+            <p class="timeline-text">Desarrollo moderno frontend/backend, bases de datos, despliegue y buenas prácticas.</p>
+          </li>
+          <li class="timeline-item">
+            <h4 class="h4 timeline-item-title">UX/UI y Prototipado</h4>
+            <span>2023 — 2024</span>
+            <p class="timeline-text">Diseño centrado en el usuario, wireframes, prototipos en Figma y pruebas con usuarios.</p>
+          </li>
+        </ol>
+      </section>
+
+      <section class="timeline">
+        <div class="title-wrapper">
+          <div class="icon-box"><ion-icon name="briefcase-outline"></ion-icon></div>
+          <h3 class="h3">Experiencia</h3>
+        </div>
+        <ol class="timeline-list">
+          <li class="timeline-item">
+            <h4 class="h4 timeline-item-title">Desarrollador Web — Freelance</h4>
+            <span>2022 — Presente</span>
+            <p class="timeline-text">Diseño y desarrollo de sitios y apps web: landing pages, ecommerce y dashboards.</p>
+          </li>
+          <li class="timeline-item">
+            <h4 class="h4 timeline-item-title">Colaboraciones Remotas</h4>
+            <span>Proyectos seleccionados</span>
+            <p class="timeline-text">Integración de APIs, optimización de rendimiento, SEO técnico y accesibilidad.</p>
+          </li>
+        </ol>
+      </section>
+
+      <section class="skill">
+          <h3 class="h3 skills-title">MIS HABILIDADES</h3>
+
+          <ul class="skills-list modern-skills">
+            <li class="skills-item">
+              <div class="skill-icon">
+                <img src="./assets/images/HTML5_logo_and_wordmark.svg.png" alt="HTML" />
+              </div>
+              <span class="skill-name">HTML</span>
+            </li>
+
+            <li class="skills-item">
+              <div class="skill-icon">
+                <img src="./assets/images/CSS3_logo_and_wordmark.svg.png" alt="CSS" />
+              </div>
+              <span class="skill-name">CSS</span>
+            </li>
+
+            <li class="skills-item">
+              <div class="skill-icon">
+                <img src="./assets/images/bootstrap.jpg" alt="CSS" />
+              </div>
+              <span class="skill-name">Bootstrap</span>
+            </li>
+
+            <li class="skills-item">
+              <div class="skill-icon">
+                <img src="./assets/images/JavaScript-logo.png" alt="JavaScript" />
+              </div>
+              <span class="skill-name">JavaScript</span>
+            </li>
+
+            <li class="skills-item">
+              <div class="skill-icon">
+                <img src="./assets/images/react.png" alt="React" />
+              </div>
+              <span class="skill-name">React</span>
+            </li>
+
+            <li class="skills-item">
+              <div class="skill-icon">
+                <img src="./assets/images/figma.avif" alt="Figma" />
+              </div>
+              <span class="skill-name">Figma</span>
+            </li>
+
+           
+            
+        
+            <li class="skills-item">
+              <div class="skill-icon">
+                <img src="./assets/images/mysql.png" alt="Node JS" />
+              </div>
+              <span class="skill-name">MySQL</span>
+            </li>
+
+            <li class="skills-item">
+              <div class="skill-icon">
+                <img src="./assets/images/github1.jpg" alt="Node JS" />
+              </div>
+              <span class="skill-name">GitHub</span>
+            </li>
+
+          </ul>
+        </section>
+
+        <section class="skill">
+          <h3 class="h3 skills-title">IDIOMAS</h3>
+
+          <ul class="skills-list modern-skills">
+            <li class="skills-item">
+              <div class="skill-icon">
+                <img src="./assets/images/españa.png" alt="Español" />
+              </div>
+              <span class="skill-name">Español</span>
+            </li>
+
+
+            <li class="skills-item">
+              <div class="skill-icon">
+                <img src="./assets/images/ru.png" alt="Inglés" />
+              </div>
+              <span class="skill-name">Inglés</span>
+            </li>
+        </section>
+    </article>
+
+    <!-- PORTFOLIO -->
+    <article class="portfolio" data-page="portafolio">
+      <header><h2 class="h2 article-title">Portafolio</h2></header>
+
+      <section class="projects">
+        <ul class="project-list">
+          <li class="project-item active" data-filter-item data-category="desarrollo web">
+            <a href="https://tusitio.com/proyecto1" target="_blank" rel="noopener">
+              <figure class="project-img">
+                <div class="project-item-icon-box"><ion-icon name="eye-outline"></ion-icon></div>
+                <img src="./assets/images/project-1.jpg" alt="Proyecto 1" loading="lazy">
+              </figure>
+              <h3 class="project-title">Proyecto 1</h3>
+              <p class="project-category">Desarrollo Web</p>
+            </a>
+          </li>
+
+          <li class="project-item active" data-filter-item data-category="desarrollo web">
+            <a href="https://tusitio.com/proyecto2" target="_blank" rel="noopener">
+              <figure class="project-img">
+                <div class="project-item-icon-box"><ion-icon name="eye-outline"></ion-icon></div>
+                <img src="./assets/images/project-2.png" alt="Proyecto 2" loading="lazy">
+              </figure>
+              <h3 class="project-title">Proyecto 2</h3>
+              <p class="project-category">Desarrollo Web</p>
+            </a>
+          </li>
+
+          <li class="project-item active" data-filter-item data-category="diseño web">
+            <a href="https://tusitio.com/proyecto3" target="_blank" rel="noopener">
+              <figure class="project-img">
+                <div class="project-item-icon-box"><ion-icon name="eye-outline"></ion-icon></div>
+                <img src="./assets/images/project-3.jpg" alt="Proyecto 3" loading="lazy">
+              </figure>
+              <h3 class="project-title">Proyecto 3</h3>
+              <p class="project-category">Diseño Web</p>
+            </a>
+          </li>
+        </ul>
+      </section>
+    </article>
+
+    <!-- CONTACT -->
+    <article class="contact" data-page="contacto">
+      <header><h2 class="h2 article-title">Contacto</h2></header>
+
+      <section class="contact-form">
+        <h3 class="h3 form-title">Hablemos</h3>
+        <form action="https://formspree.io/f/xxxxxxxx" method="POST" class="form" data-form>
+          <div class="input-wrapper">
+            <input type="text" name="fullname" class="form-input" placeholder="Nombre completo" required data-form-input>
+            <input type="email" name="email" class="form-input" placeholder="Correo electrónico" required data-form-input>
+          </div>
+          <textarea name="message" class="form-input" placeholder="Tu mensaje" required data-form-input></textarea>
+          <button class="form-btn" type="submit" data-form-btn>
+            <ion-icon name="paper-plane"></ion-icon>
+            <span>Enviar mensaje</span>
+          </button>
+        </form>
+
+        <div class="contact-extra" style="margin-top:1rem;">
+          <p>
+            También puedes escribirme directo a <a href="mailto:deftoneslovers22@gmail.com">deftoneslovers22@gmail.com</a> 
+            
+          </p>
+        </div>
+      </section>
+    </article>
+
+  </div>
+</main>
+
+<!-- JS -->
+<script src="./assets/js/script.js"></script>
+
+<!-- Ionicons (CDN ligero, sin dependencias locales) -->
+<script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+<script nomodule    src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+
+</body>
+</html>
